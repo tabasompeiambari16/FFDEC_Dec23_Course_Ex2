@@ -18,6 +18,7 @@ services:
       networks:
         - confluent
 
+
   broker:
     image: confluentinc/cp-server:7.4.0
     hostname: broker
